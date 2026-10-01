@@ -1,0 +1,677 @@
+{
+  "scenario": "steps",
+  "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+  "base_url": "https://alfagen.alfabank.ru/continue-dev/v1",
+  "target_context_tokens": 200000,
+  "max_tokens": 32000,
+  "sessions_requested": 300,
+  "steps": [
+    {
+      "sessions": 1,
+      "requests": 16,
+      "errors": 0,
+      "error_rate": 0.0,
+      "http_codes": {
+        "200": 16
+      },
+      "ttft_entry_seconds": {
+        "count": 1,
+        "p25": 27.90375430000131,
+        "p50": 27.90375430000131,
+        "p75": 27.90375430000131,
+        "p95": 27.90375430000131,
+        "p99": 27.90375430000131
+      },
+      "ttft_continuation_seconds": {
+        "count": 15,
+        "p25": 1.3325338999857195,
+        "p50": 1.3756465000042226,
+        "p75": 1.4791447000025073,
+        "p95": 1.9225602099992098,
+        "p99": 2.147989721993799
+      },
+      "generation_tokens_per_second": {
+        "count": 16,
+        "p5": 108.57326577400259,
+        "p50": 114.0715804029902
+      },
+      "error_samples": [],
+      "sla": {
+        "ttft_entry_p95_seconds": 27.90375430000131,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 1.9225602099992098,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": true,
+        "generation_p5_tokens_per_second": 108.57326577400259,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": true,
+        "error_rate": 0.0,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": true
+      }
+    },
+    {
+      "sessions": 2,
+      "requests": 16,
+      "errors": 0,
+      "error_rate": 0.0,
+      "http_codes": {
+        "200": 16
+      },
+      "ttft_entry_seconds": {
+        "count": 2,
+        "p25": 15.131878425003379,
+        "p50": 19.34149155000341,
+        "p75": 23.551104675003444,
+        "p95": 26.918795175003467,
+        "p99": 27.592333275003476
+      },
+      "ttft_continuation_seconds": {
+        "count": 14,
+        "p25": 1.1103829749918077,
+        "p50": 1.457243049997487,
+        "p75": 1.5062694249936612,
+        "p95": 7.591559764998959,
+        "p99": 16.51876579300965
+      },
+      "generation_tokens_per_second": {
+        "count": 16,
+        "p5": 65.71214992523849,
+        "p50": 105.0568057564704
+      },
+      "error_samples": [],
+      "sla": {
+        "ttft_entry_p95_seconds": 26.918795175003467,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 7.591559764998959,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": true,
+        "generation_p5_tokens_per_second": 65.71214992523849,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": true,
+        "error_rate": 0.0,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": true
+      }
+    },
+    {
+      "sessions": 4,
+      "requests": 32,
+      "errors": 0,
+      "error_rate": 0.0,
+      "http_codes": {
+        "200": 32
+      },
+      "ttft_entry_seconds": {
+        "count": 4,
+        "p25": 12.587902899984329,
+        "p50": 13.130768149989308,
+        "p75": 15.674191750003956,
+        "p95": 21.53463139000814,
+        "p99": 22.70671931800898
+      },
+      "ttft_continuation_seconds": {
+        "count": 28,
+        "p25": 1.0950754249861347,
+        "p50": 1.2008049500000197,
+        "p75": 1.315349749980669,
+        "p95": 1.877483454988396,
+        "p99": 5.914168550984179
+      },
+      "generation_tokens_per_second": {
+        "count": 32,
+        "p5": 86.56241319977418,
+        "p50": 134.5576319125771
+      },
+      "error_samples": [],
+      "sla": {
+        "ttft_entry_p95_seconds": 21.53463139000814,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 1.877483454988396,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": true,
+        "generation_p5_tokens_per_second": 86.56241319977418,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": true,
+        "error_rate": 0.0,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": true
+      }
+    },
+    {
+      "sessions": 8,
+      "requests": 96,
+      "errors": 0,
+      "error_rate": 0.0,
+      "http_codes": {
+        "200": 96
+      },
+      "ttft_entry_seconds": {
+        "count": 8,
+        "p25": 11.163532525017217,
+        "p50": 13.126704300011625,
+        "p75": 16.939221924978483,
+        "p95": 31.207680904993317,
+        "p99": 32.861713620994706
+      },
+      "ttft_continuation_seconds": {
+        "count": 88,
+        "p25": 1.0730257499890286,
+        "p50": 1.1789176499878522,
+        "p75": 1.6013030000030994,
+        "p95": 12.939025289993133,
+        "p99": 17.429930009987675
+      },
+      "generation_tokens_per_second": {
+        "count": 96,
+        "p5": 97.10420940734903,
+        "p50": 132.264075848542
+      },
+      "error_samples": [],
+      "sla": {
+        "ttft_entry_p95_seconds": 31.207680904993317,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 12.939025289993133,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": true,
+        "generation_p5_tokens_per_second": 97.10420940734903,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": true,
+        "error_rate": 0.0,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": true
+      }
+    },
+    {
+      "sessions": 16,
+      "requests": 211,
+      "errors": 0,
+      "error_rate": 0.0,
+      "http_codes": {
+        "200": 211
+      },
+      "ttft_entry_seconds": {
+        "count": 16,
+        "p25": 11.076651524999761,
+        "p50": 12.810499600003823,
+        "p75": 13.814908925014606,
+        "p95": 25.056673325008887,
+        "p99": 30.107386985000627
+      },
+      "ttft_continuation_seconds": {
+        "count": 195,
+        "p25": 1.0717842000012752,
+        "p50": 1.1585473000013735,
+        "p75": 1.2921036000043387,
+        "p95": 1.6324528800119875,
+        "p99": 10.707202726000688
+      },
+      "generation_tokens_per_second": {
+        "count": 211,
+        "p5": 67.89324225338711,
+        "p50": 133.70979264568317
+      },
+      "error_samples": [],
+      "sla": {
+        "ttft_entry_p95_seconds": 25.056673325008887,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 1.6324528800119875,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": true,
+        "generation_p5_tokens_per_second": 67.89324225338711,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": true,
+        "error_rate": 0.0,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": true
+      }
+    },
+    {
+      "sessions": 32,
+      "requests": 460,
+      "errors": 2,
+      "error_rate": 0.004347826086956522,
+      "http_codes": {
+        "200": 460
+      },
+      "ttft_entry_seconds": {
+        "count": 32,
+        "p25": 10.553969524989952,
+        "p50": 12.242533950018696,
+        "p75": 15.006416474992875,
+        "p95": 30.20558879999298,
+        "p99": 33.68699934600154
+      },
+      "ttft_continuation_seconds": {
+        "count": 428,
+        "p25": 1.095477225004288,
+        "p50": 1.2601885999902152,
+        "p75": 1.6746274749966688,
+        "p95": 11.634162174988884,
+        "p99": 26.487595329985233
+      },
+      "generation_tokens_per_second": {
+        "count": 458,
+        "p5": 50.83552760285284,
+        "p50": 132.8798000082075
+      },
+      "error_samples": [
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:36:10 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:36:29 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        }
+      ],
+      "sla": {
+        "ttft_entry_p95_seconds": 30.20558879999298,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 11.634162174988884,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": true,
+        "generation_p5_tokens_per_second": 50.83552760285284,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": true,
+        "error_rate": 0.004347826086956522,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": true
+      }
+    },
+    {
+      "sessions": 64,
+      "requests": 581,
+      "errors": 2,
+      "error_rate": 0.0034423407917383822,
+      "http_codes": {
+        "200": 581
+      },
+      "ttft_entry_seconds": {
+        "count": 64,
+        "p25": 13.078435300005367,
+        "p50": 15.679218350007432,
+        "p75": 27.236576074996265,
+        "p95": 46.16741532500015,
+        "p99": 69.59949593001741
+      },
+      "ttft_continuation_seconds": {
+        "count": 517,
+        "p25": 1.4760846999997739,
+        "p50": 2.5684005999937654,
+        "p75": 14.922798899991903,
+        "p95": 36.28454440000349,
+        "p99": 51.497292888010854
+      },
+      "generation_tokens_per_second": {
+        "count": 579,
+        "p5": 2.8719549150996646,
+        "p50": 114.0818879652347
+      },
+      "error_samples": [
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:46:12 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:46:37 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        }
+      ],
+      "sla": {
+        "ttft_entry_p95_seconds": 46.16741532500015,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 36.28454440000349,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": false,
+        "generation_p5_tokens_per_second": 2.8719549150996646,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": false,
+        "error_rate": 0.0034423407917383822,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": true,
+        "pass": false
+      }
+    },
+    {
+      "sessions": 128,
+      "requests": 454,
+      "errors": 12,
+      "error_rate": 0.02643171806167401,
+      "http_codes": {
+        "200": 454
+      },
+      "ttft_entry_seconds": {
+        "count": 128,
+        "p25": 20.645195724988298,
+        "p50": 29.538489999991725,
+        "p75": 45.721004250008264,
+        "p95": 69.86363170999681,
+        "p99": 86.26447990701301
+      },
+      "ttft_continuation_seconds": {
+        "count": 326,
+        "p25": 15.399765349990048,
+        "p50": 51.27693005000765,
+        "p75": 75.94266262498422,
+        "p95": 139.34771352501411,
+        "p99": 193.28175139999803
+      },
+      "generation_tokens_per_second": {
+        "count": 442,
+        "p5": 0.9177570057351617,
+        "p50": 105.72117778998305
+      },
+      "error_samples": [
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:51:57 GMT",
+            "server": "ycalb",
+            "set-cookie": "<redacted>",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:52:23 GMT",
+            "server": "ycalb",
+            "set-cookie": "<redacted>",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:52:06 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:52:08 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 18:52:26 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        }
+      ],
+      "sla": {
+        "ttft_entry_p95_seconds": 69.86363170999681,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": true,
+        "ttft_continuation_p95_seconds": 139.34771352501411,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": false,
+        "generation_p5_tokens_per_second": 0.9177570057351617,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": false,
+        "error_rate": 0.02643171806167401,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": false,
+        "pass": false
+      }
+    },
+    {
+      "sessions": 256,
+      "requests": 535,
+      "errors": 17,
+      "error_rate": 0.03177570093457944,
+      "http_codes": {
+        "200": 535
+      },
+      "ttft_entry_seconds": {
+        "count": 256,
+        "p25": 41.849194024995086,
+        "p50": 86.31659040000523,
+        "p75": 130.1273490750027,
+        "p95": 186.4658780250029,
+        "p99": 219.09074733500742
+      },
+      "ttft_continuation_seconds": {
+        "count": 279,
+        "p25": 140.45113985000353,
+        "p50": 174.82670049997978,
+        "p75": 199.35072545000003,
+        "p95": 233.4831089700019,
+        "p99": 261.6767212300088
+      },
+      "generation_tokens_per_second": {
+        "count": 518,
+        "p5": 1.060411487252959,
+        "p50": 97.60978397612652
+      },
+      "error_samples": [
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 19:00:12 GMT",
+            "server": "ycalb",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 19:00:09 GMT",
+            "server": "ycalb",
+            "set-cookie": "<redacted>",
+            "transfer-encoding": "chunked"
+          },
+          "error": "ReadTimeout: "
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 19:00:54 GMT",
+            "server": "ycalb",
+            "set-cookie": "<redacted>",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 19:01:06 GMT",
+            "server": "ycalb",
+            "set-cookie": "<redacted>",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        },
+        {
+          "status_code": 200,
+          "headers": {
+            "content-type": "text/event-stream;charset=UTF-8",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "0",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY",
+            "x-xss-protection": "0",
+            "referrer-policy": "no-referrer",
+            "date": "Sun, 20 Sep 2026 19:01:33 GMT",
+            "server": "ycalb",
+            "set-cookie": "<redacted>",
+            "transfer-encoding": "chunked"
+          },
+          "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+        }
+      ],
+      "sla": {
+        "ttft_entry_p95_seconds": 186.4658780250029,
+        "ttft_entry_limit_seconds": 120.0,
+        "ttft_entry_ok": false,
+        "ttft_continuation_p95_seconds": 233.4831089700019,
+        "ttft_continuation_limit_seconds": 30.0,
+        "ttft_continuation_ok": false,
+        "generation_p5_tokens_per_second": 1.060411487252959,
+        "generation_p5_limit": 50.0,
+        "generation_p5_ok": false,
+        "error_rate": 0.03177570093457944,
+        "error_rate_limit": 0.01,
+        "error_rate_ok": false,
+        "pass": false
+      }
+    }
+  ],
+  "first_violation_sessions": 64,
+  "verdict": {
+    "pass": false,
+    "first_violation_sessions": 64
+  }
+}
